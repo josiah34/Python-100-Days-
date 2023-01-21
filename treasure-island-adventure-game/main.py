@@ -27,7 +27,7 @@ print("Your mission is to find the treasure.")
 direction = input(str("You are at a cross road. Where do you want to go? Type 'left' or 'right'"))
 
 
-direction.lower()
+direction = direction.lower()
 
 if direction == "left":
     print("You have reached a lake. There is an island in the middle of the lake. Type 'wait' to wait for a boat. Type 'swim' to swim across.")
